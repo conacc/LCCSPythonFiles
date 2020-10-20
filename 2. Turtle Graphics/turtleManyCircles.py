@@ -1,0 +1,25 @@
+# turtleManyCircles.py
+# @coneill 23/09/2020
+# Draws many circles
+from turtle import *
+shape('turtle')
+color('purple')
+circle(50)
+left(45)
+circle(50)
+left(45)
+circle(50)
+left(45)
+circle(50)
+left(45)
+circle(50)
+left(45)
+circle(50)
+left(45)
+circle(50)
+left(45)
+circle(50)
+left(45)
+circle(50)
+left(45)
+circle(50)
