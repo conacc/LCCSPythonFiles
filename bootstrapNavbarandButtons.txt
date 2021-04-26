@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Class 7 - Bootstrap</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+<!-- Brand -->
+<a class="navbar-brand" href="#">Navbar</a>
+<!-- Toggler/collapsibe Button -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+<span class="navbar-toggler-icon"></span>
+</button>
+<!-- Navbar links -->
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="#">Link 1</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Link 2</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Link 3</a>
+</li>
+</ul>
+</div>
+</nav>
+<h2>Button Styles</h2>
+<div class="row">
+<div class="col-md-3"><button type="button" class="btn">Basic</button></div>
+<div class="col-md-3"><button type="button" class="btn btn-primary">Primary</button></div>
+<div class="col-md-3"><button type="button" class="btn btn-secondary">Secondary</button></div>
+<div class="col-md-3"><button type="button" class="btn btn-success">Success</button></div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-md-3"><button type="button" class="btn btn-info">Info</button></div>
+<div class="col-xs-12 col-md-3"><button type="button" class="btn btn-warning">Warning</button></div>
+<div class="col-xs-12 col-md-3"><button type="button" class="btn btn-danger">Danger</button></div>
+<div class="col-xs-12 col-md-3"><button type="button" class="btn btn-dark">Dark</button></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
