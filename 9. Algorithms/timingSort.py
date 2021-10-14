@@ -25,5 +25,18 @@ print(myList)
 end = time.time()
 print('Selection sort time: ',end-start,'seconds')
 
-
+# Timing of Insertion Sort
+start = time.time()
+myList = randomList
+for index in range(1, len(myList)):
+    # print(myList)
+    itemInsert = myList[index]
+    position = index
+    while position > 0 and myList[position-1] > itemInsert:
+        myList[position] = myList[position-1]
+        position -=1
+    myList[position] = itemInsert
+# print(myList)
+end = time.time()
+print('Insertion sort time: ',end-start,'seconds')
 
