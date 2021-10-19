@@ -5,7 +5,7 @@
 # Create random list
 import random 
 randomList = [] 
-for i in range (100): 
+for i in range (1000): 
     r = random.randint(1,100) 
     randomList.append(r) 
 print('Random List: ',randomList)
@@ -22,7 +22,6 @@ for index in range(len(myList)-1):
         myList[index] = nextMinValue
 end = time.time()
 selectionTime = end-start
-print('Selection sort time: ',selectionTime,'seconds')
 
 # Timing of Insertion Sort
 start = time.time()
@@ -36,7 +35,6 @@ for index in range(1, len(myList)):
     myList[position] = itemInsert
 end = time.time()
 insertionTime = end-start
-print('Insertion sort time: ',insertionTime,'seconds')
 
 # Timing of Bubble Sort
 start = time.time()
@@ -49,7 +47,6 @@ for outerIndex in range(len(myList) - 1):
             myList[index+1] = tempValue
 end = time.time()
 bubbleTime = end-start
-print('Bubble sort time: ',bubbleTime,'seconds')
 
 # Timing of Quick Sort
 start = time.time()
@@ -69,6 +66,7 @@ def quickSort(listIn):
         return quickSort(belowPiv) + [pivot] + quickSort(abovePiv)
     else:
         return listIn
+quickSort(randomList)
 end = time.time()
 quickTime = end-start
 print('Quicksort time: ',quickTime,'seconds')
