@@ -3,7 +3,7 @@ from turtle import *
 shape('turtle')
 width(50)
 penup()
-goto(-250,250)
+# goto(-250,250)
 flagList = ['red','orange','yellow','green','blue','indigo']
 for item in flagList:
     color(item)
