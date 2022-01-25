@@ -7,11 +7,11 @@ count = 0
 # 
 sentence = "Hello World, how are you?"
 # 
-for letter in sentence
+for letter in sentence:
     if letter == " ":
         # 
         count+=1
-    elif letter == "?"
+    elif letter == "?":
         # 
         count-=1
 #         
