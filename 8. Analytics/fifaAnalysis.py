@@ -1,4 +1,4 @@
-# FifaAnalysis.py
+# fifaAnalysis.py
 # @coneill 01/03/2023
 # Data Analysis Steps:
 # 1. Access, 2. Pre-process, 
