@@ -8,8 +8,8 @@ from pandas import *
 data = read_csv("results.csv")
  
 # converting column data to list
-age1 = data["name"].tolist()
-age2 = data["age"].tolist()
+name = data["name"].tolist()
+age = data["age"].tolist()
  
 # printing list data
 print('Name:', name)
