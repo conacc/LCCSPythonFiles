@@ -6,7 +6,7 @@ def menu():
     print("Welcome to the calculator.")
     print("1. Square a number")
     print("2. Add two numbers")
-    print("3. Add two numbers")
+    print("3. Multiply two numbers")
     print("4. Odd or Even")
     choice = input("Choose an Option: ")
     return choice
