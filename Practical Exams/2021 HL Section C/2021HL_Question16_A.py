@@ -1,5 +1,5 @@
 # Question 16 (a)
-# Examination Number:
+# Student Name:
 
 # function definition used in part (v) 
 def is_anagram(w1, w2):
