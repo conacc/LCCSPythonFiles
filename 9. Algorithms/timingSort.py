@@ -5,8 +5,10 @@
 # Create random list
 import random 
 randomList = [] 
-for i in range (1000): 
-    r = random.randint(1,100) 
+x = 1000 # number of random numbers
+y = 100 # maximum size of each number
+for i in range(x): 
+    r = random.randint(1,y) 
     randomList.append(r) 
 print('Random List: ',randomList)
 
