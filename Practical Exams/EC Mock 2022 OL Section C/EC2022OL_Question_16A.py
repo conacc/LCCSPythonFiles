@@ -5,7 +5,7 @@ length = 6
 width = 4
 
 
-choice = input(“Do you want to fi nd the (p)erimeter or (a)rea? “)
+choice = input("Do you want to fi nd the (p)erimeter or (a)rea? ")
 
 if choice == "p":
     print(length + length + width + width)
