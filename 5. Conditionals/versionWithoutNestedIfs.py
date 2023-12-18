@@ -13,7 +13,7 @@ choice = choice.upper()
 if choice == "N":
     print("Numbers added", num1+num2)
     
-elif payType == "W":
+elif choice == "W":
     print("Words added", word1+word2)
 
 else:
