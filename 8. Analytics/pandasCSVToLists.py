@@ -1,16 +1,15 @@
-# pandasCSVToLists.py
-# Converts a two-column CSV file to two lists
+# pandasCSVToList.py
+# Converts a one column CSV file to a list
+# The Pandas Package must be installed first
 
 # importing module
 from pandas import *
 
 # reading CSV file
 data = read_csv("results.csv")
- 
+
 # converting column data to list
-name = data["name"].tolist()
-age = data["age"].tolist()
- 
+soundList = data["sound"].tolist()
+
 # printing list data
-print('Name:', name)
-print('Age:', age)
+print('Sound values:', soundList)
