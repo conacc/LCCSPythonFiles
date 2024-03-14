@@ -1,3 +1,6 @@
+# calculatePi.py
+# @coneill 14/03/2024
+
 # Initialize number of terms
 num = 10000
 
