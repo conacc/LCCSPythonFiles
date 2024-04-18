@@ -2,6 +2,8 @@
 # @coneill 08/04/2024
 
 # Import Module
+# Pandas must be added first
+# (Tools -> Manage Packages)
 from pandas import *
 
 # Open Comma Separated Value File
