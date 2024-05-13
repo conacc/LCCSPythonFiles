@@ -23,3 +23,22 @@ def volCyl(r,h):
 
 # Call Menu function
 menuChoice = displayMenu()
+
+if menuChoice == "1":
+    print("Volume of Sphere")
+    rad = input("Enter the radius in cm:")
+    rad = float(rad)
+    answer = volSphere(rad)
+    print("Vol of Sphere: ",round(answer,2),"cm^3")
+
+elif menuChoice == "2":
+    print("Volume of Cylinder")
+    rad = input("Enter the radius in cm:")
+    rad = float(rad)
+    hei = input("Enter the height in cm:")
+    hei = float(hei)
+    answer = volCyl(rad,hei)
+    print("Vol of Cylinder: ",round(answer,2),"cm^3")
+
+else:
+    print("Invalid entry")
