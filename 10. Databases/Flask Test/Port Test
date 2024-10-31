@@ -1,0 +1,1 @@
+netstat -ano|findstr ":port"
