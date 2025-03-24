@@ -1,17 +1,15 @@
 # csvColumnToList.py
-# @coneill 08/04/2024
+# @coneill 24/03/2025
 
 # Import Module
-# Pandas must be added first
-# (Tools -> Manage Packages)
 from pandas import *
 
 # Open Comma Separated Value File
 # File must be saved in same folder as Python File
-data = read_csv("FIFA21-player-list.csv")
+data = read_csv("filename.csv")
 
 # Convert CSV Column to Python List
-heightList = data["height_cm"].tolist()
+myList = data["column_label"].tolist()
 
 # Print List
-print(heightList)
+print(myList)
