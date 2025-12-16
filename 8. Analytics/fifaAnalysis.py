@@ -1,30 +1,32 @@
 # fifaAnalysis.py
-# @coneill 01/03/2023
-# Data Analysis Steps:
-# 1. Access, 2. Pre-process, 
-# 3. Analyse, 4. Visualise
+# @coneill 11/12/2025
 
-# 1. Access
+# Import Pandas Module
 from pandas import *
-dataIn = read_csv("FIFA21-player-list.csv")
-#print(dataIn)
 
-ageList = dataIn["age"].tolist()
+# Open CSV File to be Analysed
+data = read_csv("FIFA21-player-list.csv")
+
+# Convert CSV column to a python list
+ageList = data["age"].tolist()
+
+# Print List and length
 print(ageList)
+print(len(ageList))
 
-# 2. Pre-process data
-# No cleaning needed - all ages are valid
+# Built-in Python Statistics Methods
+print("Maximum age:",max(ageList))
+print("Minimum age:",min(ageList))
 
-# 3. Analyse data
+# Python Statistics Module Methods
 import statistics
-print("Mean age: ",statistics.mean(ageList))
-print("Modal age: ",statistics.mode(ageList))
-print("Median age: ",statistics.median(ageList))
-print("Range of ages: ",statistics.variance(ageList))
+print("Mean age:",statistics.mean(ageList))
+print("Median age:",statistics.median(ageList))
+print("Modal age:",statistics.mode(ageList))
 
-# 4. Visualise Data
+# Graph ages
 import matplotlib.pyplot as plt
-ageList.sort()
-plt.plot(ageList)
+plt.hist(ageList)
 plt.show()
+
 
